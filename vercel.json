@@ -1,4 +1,10 @@
 {
     "version": 2,
-    "regions": ["iad1"]
+    "regions": ["sin1"],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/api"
+        }
+    ]
 }
